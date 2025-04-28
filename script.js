@@ -52,10 +52,10 @@
     var seed = tree.seed;
     var foot = tree.footer;
     var hold = 1;
-    //const audioPlayer = document.getElementById('audioPlayer');
+    const audioPlayer = document.getElementById('audioPlayer');
 
     canvas.click(function (e) {
-        //audioPlayer.play();
+        audioPlayer.play();
         var offset = canvas.offset(), x, y;
         x = e.pageX - offset.left;
         y = e.pageY - offset.top;
